@@ -276,6 +276,6 @@ class LogStash::Filters::OpenSearch < LogStash::Filters::Base
   end
 
   def test_connection!
-    get_client.client.ping
+    get_client.ping
   end
 end #class LogStash::Filters::OpenSearch
